@@ -5,5 +5,5 @@ const StyledTile = styled.h1`
 `
 
 export default function Title(props) {
-  return <StyledTile>{props.children}</StyledTile>
+  return <StyledTile onClick={props.onClick}>{props.children}</StyledTile>
 }
